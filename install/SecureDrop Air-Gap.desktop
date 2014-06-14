@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/home/amnesia/Persistent/.securedrop-airgap/securedrop.png
+Name[en_US]=SecureDrop Air-Gap
+Exec=/home/amnesia/Persistent/.securedrop-airgap/init
+Name=SecureDrop Air-Gap
+Icon=/home/amnesia/Persistent/.securedrop-airgap/securedrop.png
