@@ -27,7 +27,7 @@ def main():
     port = 6666
 
     # start the web app in a background thread
-    t = threading.Thread(target=webapp.app.run, kwargs={port:port})
+    t = threading.Thread(target=webapp.app.run, kwargs={'port':port})
     t.daemon = True
     t.start()
 
