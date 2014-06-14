@@ -14,8 +14,8 @@ ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 VERSION=`cat version`
 
 # install dependencies
-#apt-get update
-#apt-get install -y build-essential fakeroot python-all python-stdeb
+apt-get update
+apt-get install -y build-essential fakeroot python-all python-stdeb
 
 # build a debian package
 rm -r deb_dist &>/dev/null 2>&1

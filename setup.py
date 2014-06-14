@@ -19,6 +19,7 @@ setup(
     url='https://github.com/micahflee/securedrop-airgap',
     license="GPL v2",
     packages=['securedrop_airgap'],
+    include_package_data=True,
     data_files = [
         ('/usr/share/applications', ['install/securedrop-airgap.desktop']),
         ('/usr/share/pixmaps', ['install/securedrop.png'])
