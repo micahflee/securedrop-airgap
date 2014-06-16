@@ -24,7 +24,7 @@ def launch_window(port):
     gtk.main()
 
 def main():
-    port = 6666
+    port = 26666
 
     # start the web app in a background thread
     t = threading.Thread(target=webapp.app.run, kwargs={'port':port})
