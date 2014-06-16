@@ -6,7 +6,8 @@ def launch_window(port):
         gtk.main_quit()
 
     window = gtk.Window()
-    window.set_title('SecureDrop')
+    window.set_title('SecureDrop Air-Gap')
+    window.set_icon_from_file('/usr/share/pixmaps/securedrop.png')
     window.set_resizable(True)
     window.connect('destroy', on_destroy)
 

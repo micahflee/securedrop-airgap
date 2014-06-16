@@ -1,4 +1,12 @@
 body {
-  background-color: #000000;
+  min-width: 600px;
+  min-height: 400px;
+  background-color: #444444;
   color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
 }
